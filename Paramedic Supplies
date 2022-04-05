@@ -1,0 +1,39 @@
+/**Paramedic_supplies:
+BVM (8)
+Bandages (105)
+Tape (50)
+Cathlons (10)
+Electrodes (250)
+Stretchers (8)
+Mannequins (12)
+NRB (100)
+Nasal (130)
+CPAP (12)
+Gloves (500)
+Sanitizer (18)
+Saline (25)
+Ringers (8)
+Dextrose (7)
+**/
+CREATE TABLE Paramedic_supplies (id INTEGER, name TEXT, quantity INTEGER, sterile TEXT, cart INTEGER);
+INSERT INTO Paramedic_supplies VALUES (1, "BVM", 8, "No", 2);
+INSERT INTO Paramedic_supplies VALUES (2, "Bandages", 105, "No", 4);
+INSERT INTO Paramedic_supplies VALUES (3, "Tape", 50, "Yes", 2);
+INSERT INTO Paramedic_supplies VALUES (4, "Cathlons", 10, "Yes", 3);
+INSERT INTO Paramedic_supplies VALUES (5, "Electrodes", 250, "No", 7);
+INSERT INTO Paramedic_supplies VALUES (6, "Stretchers", 8, "No", 7);
+INSERT INTO Paramedic_supplies VALUES (7, "Mannequines", 12, "No", 1);
+INSERT INTO Paramedic_supplies VALUES (8, "NRB", 100, "Yes", 1);
+INSERT INTO Paramedic_supplies VALUES (9, "Nasal", 120, "Yes", 4);
+INSERT INTO Paramedic_supplies VALUES (10, "CPAP", 12, "No", 2);
+INSERT INTO Paramedic_supplies VALUES (11, "Gloves", 500, "No", 1);
+INSERT INTO Paramedic_supplies VALUES (12, "Sanitizer", 18, "No", 8);
+INSERT INTO Paramedic_supplies VALUES (13, "Saline", 25, "Yes", 5);
+INSERT INTO Paramedic_supplies VALUES (14, "Ringers", 8, "Yes", 5);
+INSERT INTO Paramedic_supplies VALUES (15, "Dextrose", 7, "Yes", 5);
+SELECT * FROM paramedic_supplies ORDER BY quantity;
+
+
+
+
+
