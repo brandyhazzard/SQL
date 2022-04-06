@@ -31,9 +31,4 @@ INSERT INTO Paramedic_supplies VALUES (12, "Sanitizer", 18, "No", 8);
 INSERT INTO Paramedic_supplies VALUES (13, "Saline", 25, "Yes", 5);
 INSERT INTO Paramedic_supplies VALUES (14, "Ringers", 8, "Yes", 5);
 INSERT INTO Paramedic_supplies VALUES (15, "Dextrose", 7, "Yes", 5);
-SELECT * FROM paramedic_supplies ORDER BY quantity;
-
-
-
-
-
+SELECT * FROM paramedic_supplies ORDER BY id;
